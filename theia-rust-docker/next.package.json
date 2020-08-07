@@ -31,7 +31,6 @@
         "@theia/preferences": "next",
         "@theia/preview": "next",
         "@theia/process": "next",
-        "@theia/rust": "next",
         "@theia/search-in-workspace": "next",
         "@theia/task": "next",
         "@theia/terminal": "next",

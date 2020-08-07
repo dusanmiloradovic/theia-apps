@@ -9,7 +9,7 @@ branches:
   - master
 
 language: node_js
-node_js: "10"
+node_js: "12"
 
 addons:
   apt:
@@ -20,27 +20,27 @@ addons:
     chrome: stable
 
 env:
-  - NPM_TAG=latest IMAGE_NAME=theia-full NODE_VERSION=10.15.3
-  - NPM_TAG=next IMAGE_NAME=theia-full NODE_VERSION=10.15.3
-  - NPM_TAG=latest IMAGE_NAME=theia NODE_VERSION=10
-  - NPM_TAG=next IMAGE_NAME=theia NODE_VERSION=10
-  - NPM_TAG=latest IMAGE_NAME=theia-java NODE_VERSION=10
-  - NPM_TAG=next IMAGE_NAME=theia-java NODE_VERSION=10
-  - NPM_TAG=latest IMAGE_NAME=theia-go NODE_VERSION=10
-  - NPM_TAG=next IMAGE_NAME=theia-go NODE_VERSION=10
-  - NPM_TAG=latest IMAGE_NAME=theia-python NODE_VERSION=10
-  - NPM_TAG=next IMAGE_NAME=theia-python NODE_VERSION=10
-  - NPM_TAG=latest IMAGE_NAME=theia-swift NODE_VERSION=10
-  - NPM_TAG=next IMAGE_NAME=theia-swift NODE_VERSION=10
-  - NPM_TAG=latest IMAGE_NAME=theia-cpp NODE_VERSION=10.15.3
-  - NPM_TAG=next IMAGE_NAME=theia-cpp NODE_VERSION=10.15.3
-  - NPM_TAG=next IMAGE_NAME=theia-rust NODE_VERSION=10.15.3
-  - NPM_TAG=latest IMAGE_NAME=theia-dart NODE_VERSION=10
-  - NPM_TAG=next IMAGE_NAME=theia-dart NODE_VERSION=10
-  - NPM_TAG=latest IMAGE_NAME=theia-https NODE_VERSION=10 ENV_VARS="-e token=" PORT=10443
-  - NPM_TAG=next IMAGE_NAME=theia-https NODE_VERSION=10 ENV_VARS="-e token=" PORT=10443
-  - NPM_TAG=latest IMAGE_NAME=theia-php NODE_VERSION=10
-  - NPM_TAG=next IMAGE_NAME=theia-php NODE_VERSION=10
+  - NPM_TAG=latest IMAGE_NAME=theia-full
+  - NPM_TAG=next IMAGE_NAME=theia-full
+  - NPM_TAG=latest IMAGE_NAME=theia
+  - NPM_TAG=next IMAGE_NAME=theia
+  - NPM_TAG=latest IMAGE_NAME=theia-java
+  - NPM_TAG=next IMAGE_NAME=theia-java
+  - NPM_TAG=latest IMAGE_NAME=theia-go
+  - NPM_TAG=next IMAGE_NAME=theia-go
+  - NPM_TAG=latest IMAGE_NAME=theia-python
+  - NPM_TAG=next IMAGE_NAME=theia-python
+  - NPM_TAG=latest IMAGE_NAME=theia-swift
+  - NPM_TAG=next IMAGE_NAME=theia-swift
+  - NPM_TAG=latest IMAGE_NAME=theia-cpp
+  - NPM_TAG=next IMAGE_NAME=theia-cpp
+  - NPM_TAG=next IMAGE_NAME=theia-rust
+  - NPM_TAG=latest IMAGE_NAME=theia-dart
+  - NPM_TAG=next IMAGE_NAME=theia-dart
+  - NPM_TAG=latest IMAGE_NAME=theia-https ENV_VARS="-e token=" PORT=10443
+  - NPM_TAG=next IMAGE_NAME=theia-https ENV_VARS="-e token=" PORT=10443
+  - NPM_TAG=latest IMAGE_NAME=theia-php
+  - NPM_TAG=next IMAGE_NAME=theia-php
 
 jobs:
   # add installer builds to jobs matrix

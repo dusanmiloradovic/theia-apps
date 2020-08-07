@@ -39,7 +39,6 @@
         "@theia/preferences": "latest",
         "@theia/preview": "latest",
         "@theia/process": "latest",
-        "@theia/rust": "latest",
         "@theia/scm": "latest",
         "@theia/search-in-workspace": "latest",
         "@theia/task": "latest",
